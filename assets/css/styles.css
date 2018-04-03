@@ -1,0 +1,102 @@
+body {
+  font-family: 'Lato', arial, sans-serif;
+  color: #434343;
+  background: #DAE3E7;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ====== Header ====== */
+.header {
+  padding: 30px 0;
+  background: #fff;
+}
+.header .title {
+  color: #49515a;
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+.header .desc {
+  color: #778492;
+  font-family: "Lato", arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* ====== Sections ====== */
+.sections-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.section {
+  margin-bottom: 30px;
+}
+.section .section-inner {
+  background: #fff;
+  padding: 30px;
+}
+.section .heading {
+  margin-top: 0;
+  color: #545e69;
+  font-size: 24px;
+}
+
+/* ====== About Section ====== */
+/* ====== Case Studies Section ====== */
+.case-study .item {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.case-study .item .title {
+  font-size: 26px;
+  margin-top: 0;
+}
+.case-study .item .title a {
+  color: #778492;
+}
+.case-study .item .title a:hover {
+  color: #5f6b77;
+}
+.case-study .item .project-image:hover {
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+.case-study-image-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.crop {
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+}
+.crop img {
+  height: 300px;
+  width: auto;
+}
+
+/* ====== Spacing ====== */
+.standard-padding {
+  padding: 20px;
+}
+
+/* ====== Footer ====== */
+.footer {
+  background: #32383e;
+  color: #fff;
+  padding: 10px 0;
+}
+.footer .contact {
+  line-height: 1.6;
+  color: #a1aab4;
+  font-size: 14px;
+}
