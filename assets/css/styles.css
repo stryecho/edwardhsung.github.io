@@ -119,9 +119,22 @@ body .title {
   .header {
     text-align: center;
   }
+  .header .title {
+    font-size: 22px;
+    margin-top: 0;
+  }
   .header .profile-content {
     float: none !important;
     text-align: center;
+  }
+  body {
+    font-size: 14px;
+  }
+  body .title {
+    font-size: 20px;
+  }
+  .case-study .title {
+    font-size: 20px;
   }
 }
 /* Small devices (tablets, 768px and up) */
