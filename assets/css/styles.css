@@ -82,11 +82,17 @@ body .title {
   height: 300px;
   width: auto;
 }
+.upshot {
+  font-size: 26px;
+}
 
 /* ====== Borders and Padding ====== */
 .screenshot-frame {
   border: 1px solid #00bce4;
   margin: 10px;
+}
+.screenshot-border {
+  border: 1px solid #00bce4;
 }
 .print-frame{
   border: 1px solid black;
