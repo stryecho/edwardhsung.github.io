@@ -224,6 +224,17 @@ a.dotted-link:hover {
   width: auto;
 }
 
+/* Borders and Padding */
+
+.screenshot-frame {
+  border: 1px solid #00bce4;
+  margin: 10px;
+}
+
+.screenshot-border {
+  border: 1px solid #00bce4;
+}
+
 .standard-padding {
   padding: 20px;
 }
